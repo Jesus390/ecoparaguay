@@ -18,6 +18,7 @@ Proyecto para reportar problemas ambientales como contaminación, deforestación
 
 * **HTML5** y **CSS3**
 * **JavaScript**
+* **NodeJS**
 * **TailwindCSS**
 * **Google Maps JavaScript API**
 
@@ -31,12 +32,27 @@ Proyecto para reportar problemas ambientales como contaminación, deforestación
    git clone https://github.com/tu-usuario/ecoparaguay
    
    ```
+2. **Instalar dependencias**:
 
-2. **Abrir el archivo `index.html`** directamente en el navegador.
-   También podés usar Live Server si estás en VSCode para ver los cambios en tiempo real.
+   Pasos para instalar las dependencias:
+   - Abre la terminal: Accede a la línea de comandos o terminal de tu sistema operativo.
+   - Navega al directorio del proyecto: Usa el comando cd para cambiar al directorio donde se encuentra el archivo package.json de tu proyecto. 
+   - Ejecuta el comando npm install: Escribe npm install y presiona Enter. 
+   - Espera a que se instalen las dependencias: NPM descargará e instalará todos los paquetes listados en package.json y en package-lock.json. 
+   - Verifica la instalación: Una vez finalizada la instalación, puedes verificar que las dependencias están presentes en la carpeta node_modules y que el archivo package-lock.json ha sido actualizado. 
 
-3. **Reemplazar la API key de Google Maps**
-   Si usás tu propia clave, editá en el HTML
+3. **Reemplazar las API key**
+
+   - Copia el archivo .env.example y renómbralo a .env
+   - Reemplaza las API keys con las tuyas propias en el archivo .env
+
+4. **Ejecutar el proyecto**:
+
+   - Ejecuta el comando `npm start` para iniciar el servidor de desarrollo.
+   - Abre tu navegador y accede a la URL `http://localhost:3000
+   - Puedes interactuar con el proyecto y probar sus funcionalidades.
+   - Para detener el servidor de desarrollo, presiona `Ctrl + C` en la terminal
+   - Para volver a ejecutar el proyecto, vuelve a ejecutar el comando `npm start`
 
 ## 🎯 Mejoras futuras
 
@@ -51,5 +67,5 @@ Proyecto para reportar problemas ambientales como contaminación, deforestación
 
 **Alan.**<br>
 **Mati.**<br>
-**Mario Espinola.**<br>
+**Mario.**<br>
 **Jazmin.**<br>
